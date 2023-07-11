@@ -13,9 +13,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter  @Setter
 public class ContaDTO {
-	
-	private Pessoa pessoa; 
-	
+	 
 	private BigDecimal saldo;
 	
 	private String numero;

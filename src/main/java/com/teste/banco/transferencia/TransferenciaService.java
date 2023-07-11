@@ -59,7 +59,6 @@ public class TransferenciaService {
 	public void parcelar ( Long idOrigem, Long idDestino, BigDecimal valor, int quantidadeParcelas) {
 		Optional<Conta> origemOpt = contaService.buscar(idOrigem);
 		Optional<Conta> destinoOpt = contaService.buscar(idDestino);
-		
 		TransferenciaParcelada aParcelar = new TransferenciaParcelada(null, origemOpt.orElse(null), destinoOpt.orElse(null), valor, quantidadeParcelas);
 		
 		executarOperacao(aParcelar);

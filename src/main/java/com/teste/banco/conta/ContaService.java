@@ -27,4 +27,13 @@ public class ContaService {
 			throw new NoSuchElementException("Conta não encontrada");
 		}
 	}
+//	public  Conta criarContaDaIntegracaoPessoas (Conta conta) {
+//		conta.setNumero("");
+//		conta.setDigito("");
+//		conta.setSaldo(new BigDecimal(100));
+//		
+//		
+//		
+//		
+//	}
 }
